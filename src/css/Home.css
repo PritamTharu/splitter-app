@@ -1,0 +1,10 @@
+.col-sm{
+    border-style: ridge;
+}
+
+.col-sm1{
+    text-align: center;
+}
+.col-sm2{
+    width: 100%;
+}
