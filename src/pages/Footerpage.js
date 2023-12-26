@@ -4,7 +4,7 @@ import '../css/Footer.css'
 export default function Footerpage() {
     return (
         <div>
-            <footer id="footer" class="footer" >
+            <footer id="footer" class="footer">
                 <div class="footer-copyright">
                     <div class="container">
                         <div class="row">

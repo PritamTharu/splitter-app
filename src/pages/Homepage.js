@@ -5,7 +5,9 @@ import Tabs from 'react-bootstrap/Tabs';
 import Friendspage from './Friendspage';
 import Groupspage from './Groupspage';
 import Settlepage from './Settlepage';
-import Chartpage from './Chartpage';
+import { Chartpage } from './Chartpage';
+import Historypage from './Historypage';
+
 
 export default function Homepage() {
   return (
@@ -13,10 +15,10 @@ export default function Homepage() {
       <div class="container">
         <div class="row">
           <div class="col-sm">
-            <Tabs defaultActiveKey="Friends" id="fill-tab" className="mb-3" justify>
+            <Tabs defaultActiveKey="Friends" id="justify-tab-example" className="mb-3" justify>
               <Tab eventKey="Friends" title="Friends"><Friendspage /> </Tab>
               <Tab eventKey="Groups" title="Groups"><Groupspage /> </Tab>
-              <Tab eventKey="History" title="History"><Settlepage /> </Tab>
+              <Tab eventKey="History" title="History"><Historypage /> </Tab>
               <Tab eventKey="Settle" title="Settle"><Settlepage /> </Tab>
             </Tabs>
           </div>
@@ -25,7 +27,7 @@ export default function Homepage() {
               <h4>Summary</h4>
             </div>
             <div class="col-sm2">
-              <Chartpage />
+              <Chartpage/>
             </div>
           </div>
         </div>

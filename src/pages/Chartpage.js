@@ -1,30 +1,26 @@
 import React from "react";
-import { MDBContainer } from "mdbreact";
-import { Pie } from "react-chartjs-2";
-import {Chart, ArcElement} from 'chart.js'
-Chart.register(ArcElement);
+import { Chart } from "react-google-charts";
 
-const Chartpage = () => {
+export const data = [
+  ["Expenses", "percentage"],
+  ["Travel", 11],
+  ["Food", 2],
+  ["Shopping", 2],
+  ["Others", 7],
+];
 
-	// Sample data
-	const data = {
-		labels: ["Monday", "Tuesday", "Wednesday",
-			"Thursday", "Friday"],
-		datasets: [
-			{
-				label: "Hours Studied in Geeksforgeeks",
-				data: [2, 5, 6, 7, 3],
-				backgroundColor: ["blue", "green",
-					"yellow", "pink", "orange"],
-			}
-		]
-	}
+export const options = {
+  title: "Spends Overview For Month",
+};
 
-	return (
-		<MDBContainer>
-			<Pie data={data} />
-		</MDBContainer>
-	);
+export function Chartpage() {
+  return (
+    <Chart
+      chartType="PieChart"
+      data={data}
+      options={options}
+      width={"100%"}
+      height={"200px"}
+    />
+  );
 }
-
-export default Chartpage;
