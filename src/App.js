@@ -4,7 +4,7 @@ import Navpage from './pages/Navpage';
 import Homepage from './pages/Homepage';
 import Aboutpage from './pages/Aboutpage'
 import Footerpage from './pages/Footerpage'
-import Loginpage from './pages/Loginpage';
+import Loginsigninpage from './pages/Loginsigninpage';
 function App() {
   return (
     <>
@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route exact path="/" element={<Homepage/>}/>
-      <Route exact path='/login' element={<Loginpage/>}/>
+      <Route exact path='/loginsigninpage' element={<Loginsigninpage/>}/>
       <Route exact path="/about" element={<Aboutpage/>} />
     </Routes>
     </BrowserRouter>

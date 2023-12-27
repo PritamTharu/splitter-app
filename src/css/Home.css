@@ -8,3 +8,6 @@
 .col-sm2{
     width: auto;
 }
+.nav-tabs .nav-link.active {
+    border-bottom: solid 4px #1f8c2f !important;
+  }

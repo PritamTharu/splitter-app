@@ -1,15 +1,12 @@
-ul {
-    list-style-type: none;
-}
-
-ul {
-    list-style: none;
-}
-
-ul li {
-    margin-bottom: 5px;
-}
-
 .friendsList{
     display: flex;
+}
+.flex-fill{
+    height: 200px;
+}
+.rounded-circle{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
 }

@@ -1,8 +1,8 @@
 const friends = [
     {
         "id": 1,
-        "firstname": "pritam",
-        "lastname": "tharu",
+        "firstname": "Pritam",
+        "lastname": "Tharu",
         "phone": "+91 789654123",
         "email": "abcyz@gmail.com",
         "image": "./profile.jpg"
@@ -10,36 +10,45 @@ const friends = [
     },
     {
         "id": 2,
-        "firstname": "rajiv",
-        "lastname": "gupta",
+        "firstname": "Rajiv",
+        "lastname": "Gupta",
         "phone": "+91 123456987",
         "email": "defvu@gmail.com",
         "image":"./profile.jpg"
     },
     {
         "id": 3,
-        "firstname": "abhishek",
-        "lastname": "chauhan",
+        "firstname": "Abhishek",
+        "lastname": "Chauhan",
         "phone": "+91 023456987",
         "email": "oovu@gmail.com",
         "image":"./profile.jpg"
     },
     {
         "id": 4,
-        "firstname": "ayush",
-        "lastname": "prajapati",
+        "firstname": "Ayush",
+        "lastname": "Prajapati",
         "phone": "+91 023456987",
         "email": "oovu@gmail.com",
         "image":"./profile.jpg"
     },
     {
         "id": 5,
-        "firstname": "kunal",
-        "lastname": "kathe",
+        "firstname": "Kunal",
+        "lastname": "Kathe",
         "phone": "+91 023456987",
         "email": "oovu@gmail.com",
         "image":"./profile.jpg"
-    }
+    },
+    {
+        "id": 6,
+        "firstname": "Deepak",
+        "lastname": "Panchal",
+        "phone": "+91 023456987",
+        "email": "oovu@gmail.com",
+        "image":"./profile.jpg"
+    }   
+    
 ]
 
 export default friends;

@@ -3,3 +3,8 @@
     position: sticky;
     top: 0;
 }
+.me-auto Button{
+    margin-left: 5px;
+    border-radius: 50px;
+    width: 100%;
+}
